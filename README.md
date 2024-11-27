@@ -24,4 +24,6 @@ If all these conditions are satisfied, the entry ends up in the filtered list.
 
 `T_to_C_filter.ipynb` is the notebook that searches, fetches and filters the SNPs for our criteria.
 
+`webscraper` takes the manually pasted list of links that `T_to_C_filter` produces and requests the website html and extracts the disease name from it.
+
 `get_all_T_to_C_mutations.ipynb` is copied from https://github.com/ncbi/dbsnp and only minimally adjusted
